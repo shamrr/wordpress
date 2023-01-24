@@ -245,3 +245,49 @@ h2.title{
     line-height: .8rem;
 }
 /*optimization section styles end*/
+
+
+/*result section styles start*/
+.results {
+    background: url(../img/second_bg.jpg) center center / cover no-repeat;
+    padding: 8.6rem 0 6.5rem 0;
+}
+.results__title {
+    font-weight: 400;
+    font-size: 3rem;
+    color: #EFEFEF;
+    text-transform: uppercase;
+    margin-bottom: 1.8rem;
+    text-align: center;
+}
+.results .line {
+    margin-bottom: 3.9rem;
+}
+.results__wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.results__item {
+    max-width: 24rem;
+}
+.result__img {
+    display: block;
+    margin: 0 auto;
+    background: #B4E2FF;
+    border-radius: 50%;
+    padding: 3rem;
+    margin-bottom: 2.4rem;
+    transition: all .4s;
+}
+.result__img:hover{
+    padding: 3.2rem;
+    box-shadow: 0px 0px 10px rgb(227, 220, 83);
+}
+.result__name {
+    font-weight: 300;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    color: #EFEFEF;
+    text-align: center;
+}
+/*results section styles end*/
