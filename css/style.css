@@ -335,5 +335,35 @@ h2.title{
 .entry__btn:active{
     transform: translateY(.3rem);
 }
-
 /*entry section styles end*/
+
+/*news section styles start*/
+.news {
+    padding: 8.1rem 0 5.2rem 0;
+}
+.news__img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 3.6rem;
+}
+.news__text {
+    text-align: center;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #252525;
+}
+.news__time {
+    text-align: center;
+    margin-bottom: 2.4rem;
+    font-weight: 900;
+    font-size: 3.6rem;
+    color: #299CBD;
+}
+.news__sub {
+    text-align: center;
+    font-weight: 400;
+    font-size: 2.3rem;
+    color: #4A4A4A;
+}
+/*news section styles end*/
