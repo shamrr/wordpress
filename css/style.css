@@ -379,7 +379,7 @@ h2.title{
     justify-content: center;
     margin-bottom: 1rem;
 }
-.footer__item {
+.footer__link{
     font-weight: 300;
     font-size: 1.5rem;
     color: #888;
