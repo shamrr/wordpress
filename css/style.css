@@ -36,3 +36,130 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
+/*basic*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 114rem;
+    width: 100%;
+    margin: 0 auto
+}
+/*basic*/
+
+
+/*promo setcion styles start*/
+.promo {
+    background: url(../img/main_bg.jpg) center center / cover no-repeat;
+    padding: 3.8rem 0 6.1rem 0;
+}
+
+.logo .logo__image{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+
+.logo .logo__text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5.3rem;
+}
+
+.title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 4.1rem;
+    color: #F9BF3B;
+}
+
+h1.title{
+    margin-bottom: 2rem;
+}
+
+h2.title{
+    margin-bottom: 2.2rem;
+}
+
+.title__big {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 900;
+    font-size: 8rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    position: relative;
+}
+.title__big::before,
+.title__big::after{
+    content: "";
+    display: block;
+    width: 25%;
+    position: absolute;
+    border-bottom: .2rem solid #fff;
+    top: 50%;
+}
+.title__big::after{
+    right: 0;
+}
+
+.promo__text{
+    font-weight: 300;
+    font-size: 2.1rem;
+    line-height: 2.8rem;
+    color: #fff;
+    margin-bottom: 7.2rem;
+}
+
+.promo__text span{
+    font-weight: 700;
+    color: #F9BF3B;
+    text-transform: uppercase;
+}
+
+.promo__btn{
+    display: block;
+    margin: 0 auto;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    color: #fff;
+    padding: 2.3rem 1.6rem;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    transition: all .3s;
+    margin-bottom: 7rem;
+    cursor: pointer;
+}
+
+.promo__btn:hover,
+.promo__btn:active{
+    background: linear-gradient(0deg, #2798B9 80%, #3AB6DA 100%);
+}
+
+.promo__btn:hover{
+    transform: translateY(-.3rem);
+}
+.promo__btn:active{
+    transform: translateY(.3rem);
+}
+
+.more__text{
+    font-weight: 100;
+    font-size: 1.5rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: .5rem;
+}
+.more__img{
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+}
+/*promo setcion styles end*/
