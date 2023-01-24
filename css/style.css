@@ -266,9 +266,10 @@ h2.title{
 .results__wrapper {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 .results__item {
-    max-width: 24rem;
+    max-width: 22rem;
 }
 .result__img {
     display: block;
@@ -291,3 +292,48 @@ h2.title{
     text-align: center;
 }
 /*results section styles end*/
+
+/*entry section styles start*/
+.entry {
+    background: #EFEFEF;
+    padding: 8.5rem 0 8.8rem 0;
+}
+.gift {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 4.5rem;
+}
+.entry__text {
+    text-align: center;
+    margin-bottom: 5.1rem;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 4.3rem;
+    color: #252522;
+}
+.entry__btn {
+    display: block;
+    margin: 0 auto;
+    font-size: 2.1rem;
+    text-transform: uppercase;
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.22);
+    color: #fff;
+    padding: 2.3rem 1.6rem;
+    background: linear-gradient(0deg, #2798B9 0%, #3AB6DA 100%);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    transition: all .3s;
+    cursor: pointer;
+}
+.entry__btn:hover,
+.entry__btn:active{
+    background: linear-gradient(0deg, #2798B9 80%, #3AB6DA 100%);
+}
+
+.entry__btn:hover{
+    transform: translateY(-.3rem);
+}
+.entry__btn:active{
+    transform: translateY(.3rem);
+}
+
+/*entry section styles end*/
