@@ -367,3 +367,37 @@ h2.title{
     color: #4A4A4A;
 }
 /*news section styles end*/
+
+
+/*footer section styles start*/
+.footer {
+    background: #1A1A1A;
+    padding: 5.7rem 0 6.9rem 0;
+}
+.footer__list {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.footer__item {
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #888;
+    text-decoration: underline;
+}
+.footer__item:not(:last-child){
+    margin-right: .5rem;
+}
+.footer_text {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #888;
+}
+.footer_text a{
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: #888;
+    cursor: pointer;
+}
+/*footer section styles end*/
