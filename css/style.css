@@ -456,6 +456,9 @@ h2.title{
     .title__big{
         font-size: 6rem;
     }
+    .result__img{
+        width: 65%;
+    }
 }
 
 @media only screen and (max-width: 570px){
