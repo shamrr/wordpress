@@ -481,4 +481,8 @@ h2.title{
     .news__img{
         width: 80%;
     }
+    .title__big::before,
+    .title__big::after{
+        width: 5%;
+    }
 }
