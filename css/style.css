@@ -16,7 +16,6 @@ nav,footer,header,aside{display: block;}
 html,body{
 	height: 100%;
 	width: 100%;
-	font-size: 100%;
 	line-height: 1;
 	font-size: 10px;
 	-ms-text-size-adjust: 100%;
@@ -37,7 +36,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
 /*basic*/
-body{
+html{
     font-family: 'Roboto', sans-serif;
 }
 
@@ -388,16 +387,98 @@ h2.title{
 .footer__item:not(:last-child){
     margin-right: .5rem;
 }
-.footer_text {
+.footer__text {
     text-align: center;
     font-weight: 300;
     font-size: 1.5rem;
     color: #888;
 }
-.footer_text a{
+.footer__text a{
     font-weight: 300;
     font-size: 1.5rem;
     color: #888;
     cursor: pointer;
 }
 /*footer section styles end*/
+
+@media only screen and (max-width: 1200px){
+    html{
+        font-size: 8px;
+    }
+    .waiting__item {
+        max-width: 32rem;
+    }
+    .waiting__img{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 940px){
+    .container{
+        max-width: 92rem;
+    }
+    .title__big::before,
+    .title__big::after{
+        width: 20%;
+    }
+    .optimization{
+        padding: 5rem 0;
+    }
+    .optimization__wrapper {
+        margin-left: 0;
+        display: block;
+        margin: 0 auto;
+    }
+    .optimization__woman{
+        display: none;
+    }
+}
+@media only screen and (max-width: 800px){
+    html{
+        font-size: 7px;
+    }
+    .container{
+        max-width: 75rem;
+    }
+    .title{
+        font-size: 3rem;
+    }
+    .title__big{
+        font-size: 6rem;
+    }
+}
+
+@media only screen and (max-width: 570px){
+    html{
+        font-size: 6px;
+    }
+    .container{
+        max-width: 55rem;
+    }
+    .waiting__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+    .waiting__item:not(:last-child){
+        margin-bottom: 2rem;
+    }
+    .title__big::before,
+    .title__big::after{
+        width: 13%;
+    }
+    .news__img{
+        width: 95%;
+    }
+}
+@media only screen and (max-width: 360px){
+    html{
+        font-size: 5.5px;
+    }
+    .container{
+        max-width: 45rem;
+    }
+    .news__img{
+        width: 80%;
+    }
+}
